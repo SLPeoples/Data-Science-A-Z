@@ -1,0 +1,23 @@
+﻿Model 4: Logit, using observations 1-100
+Dependent variable: TookAction
+Standard errors based on Hessian
+
+             coefficient   std. error     z      p-value
+  ------------------------------------------------------
+  const      −33.7146       8.83304     −3.817   0.0001  ***
+  Age          0.887226     0.231787     3.828   0.0001  ***
+  F           −4.43738      1.49193     −2.974   0.0029  ***
+
+Mean dependent var   0.400000   S.D. dependent var   0.492366
+McFadden R-squared   0.779993   Adjusted R-squared   0.735417
+Log-likelihood      −14.80675   Akaike criterion     35.61349
+Schwarz criterion    43.42901   Hannan-Quinn         38.77657
+
+Number of cases 'correctly predicted' = 94 (94.0%)
+f(beta'x) at mean of independent vars = 0.088
+Likelihood ratio test: Chi-square(2) = 104.989 [0.0000]
+
+           Predicted
+             0    1
+  Actual 0  58    2
+         1   4   36

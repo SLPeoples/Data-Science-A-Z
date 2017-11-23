@@ -1,0 +1,33 @@
+﻿Model 2: Logit, using observations 1-10000
+Dependent variable: Exited
+Standard errors based on Hessian
+
+                  coefficient   std. error      z       p-value 
+  --------------------------------------------------------------
+  const           −3.87241      0.240590     −16.10    2.75e-058 ***
+  CreditScore     −0.000670742  0.000280337   −2.393   0.0167    **
+  Age              0.0726769    0.00257496    28.22    2.93e-175 ***
+  Tenure          −0.0157824    0.00935292    −1.687   0.0915    *
+  Balance          2.64479e-06  5.14125e-07    5.144   2.69e-07  ***
+  NumOfProducts   −0.100672     0.0471292     −2.136   0.0327    **
+  HasCrCard       −0.0447500    0.0593401     −0.7541  0.4508   
+  IsActiveMember  −1.07615      0.0576823    −18.66    1.12e-077 ***
+  F                0.528977     0.0544834      9.709   2.76e-022 ***
+  Sp               0.0354117    0.0706265      0.5014  0.6161   
+  Ge               0.774967     0.0676722     11.45    2.30e-030 ***
+
+Mean dependent var   0.203700   S.D. dependent var   0.402769
+McFadden R-squared   0.153059   Adjusted R-squared   0.150883
+Log-likelihood      −4281.193   Akaike criterion     8584.385
+Schwarz criterion    8663.699   Hannan-Quinn         8611.233
+
+Number of cases 'correctly predicted' = 8115 (81.2%)
+f(beta'x) at mean of independent vars = 0.135
+Likelihood ratio test: Chi-square(10) = 1547.4 [0.0000]
+
+           Predicted
+               0      1
+  Actual 0  7677    286
+         1  1599    438
+
+Excluding the constant, p-value was highest for variable 18 (Sp)
