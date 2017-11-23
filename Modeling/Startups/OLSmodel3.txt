@@ -1,0 +1,15 @@
+﻿Model 5: OLS, using observations 1-50
+Dependent variable: Profit
+
+                   coefficient    std. error   t-ratio   p-value 
+  ---------------------------------------------------------------
+  const           46975.9        2689.93       17.46    3.50e-022 ***
+  RDSpend             0.796584      0.0413476  19.27    6.04e-024 ***
+  MarketingSpend      0.0299079     0.0155200   1.927   0.0600    *
+
+Mean dependent var   112012.6   S.D. dependent var   40306.18
+Sum squared resid    3.94e+09   S.E. of regression   9160.966
+R-squared            0.950450   Adjusted R-squared   0.948342
+F(2, 47)             450.7713   P-value(F)           2.16e-31
+Log-likelihood      −525.5354   Akaike criterion     1057.071
+Schwarz criterion    1062.807   Hannan-Quinn         1059.255

@@ -1,0 +1,11 @@
+                           Mean         Median        Minimum        Maximum
+YearsExperience          5.3133         4.7000         1.1000         10.500
+Salary                    76003          65237          37731    1.2239e+005
+
+                      Std. Dev.           C.V.       Skewness   Ex. kurtosis
+YearsExperience          2.8379        0.53411        0.36031        -1.0448
+Salary                    27414        0.36070        0.33616        -1.2829
+
+                       5% perc.      95% perc.       IQ range   Missing obs.
+YearsExperience          1.2100         10.390         4.8250              0
+Salary                    38618    1.2211e+005          45942              0

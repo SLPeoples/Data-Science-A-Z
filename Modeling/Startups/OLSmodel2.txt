@@ -1,0 +1,18 @@
+﻿Model 2: OLS, using observations 1-50
+Dependent variable: Profit
+
+                   coefficient    std. error   t-ratio   p-value 
+  ---------------------------------------------------------------
+  const           47721.8        3018.34       15.81    3.22e-020 ***
+  RDSpend             0.800294      0.0421740  18.98    2.18e-023 ***
+  MarketingSpend      0.0285947     0.0158086   1.809   0.0770    *
+  NY              −1484.61       2646.17       −0.5610  0.5775   
+
+Mean dependent var   112012.6   S.D. dependent var   40306.18
+Sum squared resid    3.92e+09   S.E. of regression   9228.486
+R-squared            0.950787   Adjusted R-squared   0.947578
+F(3, 46)             296.2378   P-value(F)           4.44e-30
+Log-likelihood      −525.3649   Akaike criterion     1058.730
+Schwarz criterion    1066.378   Hannan-Quinn         1061.642
+
+Excluding the constant, p-value was highest for variable 6 (NY)

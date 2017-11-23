@@ -1,0 +1,14 @@
+﻿Model 1: OLS, using observations 1-30
+Dependent variable: Salary
+
+                    coefficient   std. error   t-ratio    p-value 
+  ----------------------------------------------------------------
+  const              25792.2       2273.05      11.35    5.51e-012 ***
+  YearsExperience     9449.96       378.755     24.95    1.14e-020 ***
+
+Mean dependent var   76003.00   S.D. dependent var   27414.43
+Sum squared resid    9.38e+08   S.E. of regression   5788.315
+R-squared            0.956957   Adjusted R-squared   0.955419
+F(1, 28)             622.5072   P-value(F)           1.14e-20
+Log-likelihood      −301.4412   Akaike criterion     606.8823
+Schwarz criterion    609.6847   Hannan-Quinn         607.7788

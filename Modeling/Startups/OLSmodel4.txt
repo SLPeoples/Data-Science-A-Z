@@ -1,0 +1,14 @@
+﻿Model 4: OLS, using observations 1-50
+Dependent variable: Profit
+
+             coefficient     std. error    t-ratio    p-value 
+  ------------------------------------------------------------
+  const      49032.9        2537.90         19.32    2.78e-024 ***
+  RDSpend        0.854291      0.0293056    29.15    3.50e-032 ***
+
+Mean dependent var   112012.6   S.D. dependent var   40306.18
+Sum squared resid    4.26e+09   S.E. of regression   9416.349
+R-squared            0.946535   Adjusted R-squared   0.945421
+F(1, 48)             849.7889   P-value(F)           3.50e-32
+Log-likelihood      −527.4365   Akaike criterion     1058.873
+Schwarz criterion    1062.697   Hannan-Quinn         1060.329
