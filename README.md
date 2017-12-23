@@ -1,5 +1,6 @@
-# Data-Science-A-Z
-Data Science A-Z UDemy Course
+# Data Science A-Z™: Real-Life Data Science 
+
+## Learn Data Science step by step through real Analytics examples. Data Mining, Modeling, Tableau Visualization and more!
 
 https://www.udemy.com/datascience/learn/v4/overview
 
